@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leftside {
+    background-color: rgb(66, 103, 178);
+    width: 47.5vw;
+    float: left;
+    height: 95vh;
+    margin: 10px;
+    border-radius: 7.5px;
+}
+
+.leftside .heading img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    padding-top: 80px;
+}
+
+.leftside .subheading {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rightside {
+    background-color: rgb(66, 103, 178);
+    width: 47.5vw;
+    float: left;
+    height: 95vh;
+    margin: 10px;
+    border-radius: 7.5px;
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+    transition: 0.5s;
+
+}
+
+.rightside .studentlogin {
+    position: absolute;
+    background: rgba((255, 255, 255, 0.2);
+    }
