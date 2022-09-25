@@ -9,6 +9,7 @@
     <title>College Connect</title>
     <link rel="stylesheet" href="css/style2.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -21,10 +22,52 @@
         </div>
     </div>
     <div class="rightside">
-        <div class="studentlogin">
-            <a href="index.html">
-                <input type="submit" />
-            </a>
+        <div class="switch">
+            <div class="student" onClick="tab1();">
+                Student
+            </div>
+            <div class="club" onClick="tab2();">
+                Club
+            </div>
+        </div>
+        <div class=" outer">
+            <form id="form" action="">
+                <div id="page">
+                    <label>Student</label>
+                    <div class="element">
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="element">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="element">
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="element">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="element">
+                        <input type="password" placeholder="Confirm Password">
+                    </div>
+                    <button id="btn">Sign Up</button>
+                </div>
+                <div id="page">
+                    <label>Club</label>
+                    <div class="element">
+                        <input type="text" placeholder="Club Name">
+                    </div>
+                    <div class="element">
+                        <input type="text" placeholder="Club E-mail">
+                    </div>
+                    <div class="element">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="element">
+                        <input type="password" placeholder="Confirm Password">
+                    </div>
+                    <button id="btn">Sign Up</button>
+                </div>
+            </form>
         </div>
     </div>
 
